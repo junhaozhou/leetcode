@@ -1,10 +1,10 @@
-package com.littlechoc.leetcode.linkedlist;
+package com.littlechoc.leetcode.linkedlist.easy;
 
 import com.littlechoc.leetcode.model.ListNode;
 import com.littlechoc.leetcode.utils.Printer;
 
 /**
- * 203
+ * Problem 203. Open in <a href="https://leetcode.com/problems/remove-linked-list-elements/">LeetCode</a>.
  *
  * @author 周俊皓.
  *         2016-07-07 17:13

@@ -1,7 +1,10 @@
 package com.littlechoc.leetcode.utils;
 
 /**
- * Created by Lttlechoc on 2016/7/7 0007.
+ * 打印工具类
+ *
+ * @author 周俊皓.
+ *         2016-07-07 17:13
  */
 public class Printer {
 
