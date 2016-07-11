@@ -2,10 +2,6 @@ package com.littlechoc.leetcode.linkedlist.medium;
 
 import com.littlechoc.leetcode.model.ListNode;
 import com.littlechoc.leetcode.utils.Printer;
-import com.sun.javafx.collections.MappingChange;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * Problem 142. See in <a href="https://leetcode.com/problems/linked-list-cycle-ii/">LeetCode</a>.
@@ -27,22 +23,26 @@ public class LinkedListCycle2 {
   }
 
   public ListNode detectCycle(ListNode head) {
-    if (head == null || head.next == null || head.next.next == null) return null;
-    ListNode pointer1 = head.next;
-    ListNode pointer2 = head.next.next;
-    //Step 1
-    while (pointer1 != pointer2) {
-      if (pointer2.next == null || pointer2.next.next == null) return null;
-      pointer1 = pointer1.next;
-      pointer2 = pointer2.next.next;
+    if (head == null || head.next == null || head.next.next == null) {
+      return null;
     }
-    pointer1 = head;
-    //Step 2
-    while (pointer1 != pointer2) {
-      pointer1 = pointer1.next;
-      pointer2 = pointer2.next;
+    ListNode slow = head.next;
+    ListNode fast = head.next.next;
+    //Step 1: 找到slow和fast相遇的点
+    while (slow != fast) {
+      if (fast.next == null || fast.next.next == null) {
+        return null;
+      }
+      slow = slow.next;
+      fast = fast.next.next;
     }
-    return pointer1;
+    //Step 2: 让指针从起点和相遇点同时出发
+    slow = head;
+    while (slow != fast) {
+      slow = slow.next;
+      fast = fast.next;
+    }
+    return slow;
   }
 
 }
