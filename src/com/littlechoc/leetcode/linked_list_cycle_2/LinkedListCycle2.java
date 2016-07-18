@@ -1,6 +1,6 @@
-package com.littlechoc.leetcode.linkedlist.medium;
+package com.littlechoc.leetcode.linked_list_cycle_2;
 
-import com.littlechoc.leetcode.model.ListNode;
+import com.littlechoc.leetcode.datastructure.ListNode;
 import com.littlechoc.leetcode.utils.Printer;
 
 /**

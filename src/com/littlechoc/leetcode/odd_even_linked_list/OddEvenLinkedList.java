@@ -1,6 +1,6 @@
-package com.littlechoc.leetcode.linkedlist.medium;
+package com.littlechoc.leetcode.odd_even_linked_list;
 
-import com.littlechoc.leetcode.model.ListNode;
+import com.littlechoc.leetcode.datastructure.ListNode;
 import com.littlechoc.leetcode.utils.InputHelper;
 import com.littlechoc.leetcode.utils.Printer;
 

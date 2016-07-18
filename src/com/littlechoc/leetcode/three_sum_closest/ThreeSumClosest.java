@@ -1,4 +1,4 @@
-package com.littlechoc.leetcode.array.medium;
+package com.littlechoc.leetcode.three_sum_closest;
 
 /**
  * Problem 16. See in <a href="https://leetcode.com/problems/3sum-closest/">LeetCode</a>.

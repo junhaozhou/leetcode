@@ -1,6 +1,6 @@
-package com.littlechoc.leetcode.linkedlist.medium;
+package com.littlechoc.leetcode.partition_list;
 
-import com.littlechoc.leetcode.model.ListNode;
+import com.littlechoc.leetcode.datastructure.ListNode;
 
 /**
  * Problem 86. See in <a href="https://leetcode.com/problems/partition-list/">LeetCode</a>

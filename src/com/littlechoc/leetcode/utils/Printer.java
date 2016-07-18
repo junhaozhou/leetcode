@@ -1,6 +1,6 @@
 package com.littlechoc.leetcode.utils;
 
-import com.littlechoc.leetcode.model.ListNode;
+import com.littlechoc.leetcode.datastructure.ListNode;
 
 /**
  * 打印工具类

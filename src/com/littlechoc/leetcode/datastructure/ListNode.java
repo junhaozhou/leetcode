@@ -1,4 +1,4 @@
-package com.littlechoc.leetcode.model;
+package com.littlechoc.leetcode.datastructure;
 
 /**
  * Definition for singly-linked list.

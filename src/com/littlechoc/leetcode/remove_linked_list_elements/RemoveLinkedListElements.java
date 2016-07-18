@@ -1,6 +1,6 @@
-package com.littlechoc.leetcode.linkedlist.easy;
+package com.littlechoc.leetcode.remove_linked_list_elements;
 
-import com.littlechoc.leetcode.model.ListNode;
+import com.littlechoc.leetcode.datastructure.ListNode;
 import com.littlechoc.leetcode.utils.Printer;
 
 /**

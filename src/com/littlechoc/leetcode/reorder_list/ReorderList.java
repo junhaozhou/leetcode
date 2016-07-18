@@ -1,6 +1,6 @@
-package com.littlechoc.leetcode.linkedlist.medium;
+package com.littlechoc.leetcode.reorder_list;
 
-import com.littlechoc.leetcode.model.ListNode;
+import com.littlechoc.leetcode.datastructure.ListNode;
 
 /**
  * Problem 143. See in <a herf="https://leetcode.com/problems/reorder-list/">LeetCode</a>

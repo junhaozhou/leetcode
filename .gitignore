@@ -15,5 +15,8 @@ hs_err_pid*
 *.iml
 /out/
 
+# test
+test/
+
 # Directory-based project format:
 .idea/
