@@ -1,4 +1,4 @@
-package com.littlechoc.leetcode.add_two_numbers;
+package com.littlechoc.leetcode.algorithms.add_two_numbers;
 
 import com.littlechoc.leetcode.datastructure.ListNode;
 import com.littlechoc.leetcode.utils.InputHelper;

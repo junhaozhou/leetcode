@@ -1,4 +1,4 @@
-package com.littlechoc.leetcode.partition_list;
+package com.littlechoc.leetcode.algorithms.partition_list;
 
 import com.littlechoc.leetcode.datastructure.ListNode;
 

@@ -1,4 +1,4 @@
-package com.littlechoc.leetcode.odd_even_linked_list;
+package com.littlechoc.leetcode.algorithms.odd_even_linked_list;
 
 import com.littlechoc.leetcode.datastructure.ListNode;
 import com.littlechoc.leetcode.utils.InputHelper;

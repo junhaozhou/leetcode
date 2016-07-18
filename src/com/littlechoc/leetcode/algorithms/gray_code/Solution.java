@@ -1,4 +1,4 @@
-package com.littlechoc.leetcode.gray_code;
+package com.littlechoc.leetcode.algorithms.gray_code;
 
 import java.util.ArrayList;
 import java.util.List;

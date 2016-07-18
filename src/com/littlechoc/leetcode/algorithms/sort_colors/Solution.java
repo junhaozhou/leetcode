@@ -1,4 +1,4 @@
-package com.littlechoc.leetcode.sort_colors;
+package com.littlechoc.leetcode.algorithms.sort_colors;
 
 /**
  * Problem 75. See in <a href="https://leetcode.com/problems/sort-colors/">LeetCode</a>

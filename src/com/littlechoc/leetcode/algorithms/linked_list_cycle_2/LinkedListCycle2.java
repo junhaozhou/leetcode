@@ -1,4 +1,4 @@
-package com.littlechoc.leetcode.linked_list_cycle_2;
+package com.littlechoc.leetcode.algorithms.linked_list_cycle_2;
 
 import com.littlechoc.leetcode.datastructure.ListNode;
 import com.littlechoc.leetcode.utils.Printer;

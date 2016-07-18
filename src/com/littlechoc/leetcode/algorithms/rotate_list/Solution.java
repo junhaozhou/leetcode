@@ -1,4 +1,4 @@
-package com.littlechoc.leetcode.rotate_list;
+package com.littlechoc.leetcode.algorithms.rotate_list;
 
 import com.littlechoc.leetcode.datastructure.ListNode;
 

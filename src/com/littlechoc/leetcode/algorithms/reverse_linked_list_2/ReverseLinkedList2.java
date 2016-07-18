@@ -1,4 +1,4 @@
-package com.littlechoc.leetcode.reverse_linked_list_2;
+package com.littlechoc.leetcode.algorithms.reverse_linked_list_2;
 
 import com.littlechoc.leetcode.datastructure.ListNode;
 import com.littlechoc.leetcode.utils.Printer;

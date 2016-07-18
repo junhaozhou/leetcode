@@ -1,4 +1,4 @@
-package com.littlechoc.leetcode.remove_duplicates_from_sorted_array_2;
+package com.littlechoc.leetcode.algorithms.remove_duplicates_from_sorted_array_2;
 
 /**
  * Problem 80. See in <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/">LeetCode</a>

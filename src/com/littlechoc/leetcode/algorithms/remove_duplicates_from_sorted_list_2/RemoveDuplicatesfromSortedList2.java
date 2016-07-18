@@ -1,4 +1,4 @@
-package com.littlechoc.leetcode.remove_duplicates_from_sorted_list_2;
+package com.littlechoc.leetcode.algorithms.remove_duplicates_from_sorted_list_2;
 
 import com.littlechoc.leetcode.datastructure.ListNode;
 import com.littlechoc.leetcode.utils.InputHelper;

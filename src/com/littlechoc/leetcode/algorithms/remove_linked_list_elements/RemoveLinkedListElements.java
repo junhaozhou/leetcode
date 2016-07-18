@@ -1,4 +1,4 @@
-package com.littlechoc.leetcode.remove_linked_list_elements;
+package com.littlechoc.leetcode.algorithms.remove_linked_list_elements;
 
 import com.littlechoc.leetcode.datastructure.ListNode;
 import com.littlechoc.leetcode.utils.Printer;

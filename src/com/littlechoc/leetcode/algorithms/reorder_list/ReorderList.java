@@ -1,4 +1,4 @@
-package com.littlechoc.leetcode.reorder_list;
+package com.littlechoc.leetcode.algorithms.reorder_list;
 
 import com.littlechoc.leetcode.datastructure.ListNode;
 
