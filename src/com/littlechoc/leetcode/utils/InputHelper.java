@@ -1,10 +1,10 @@
 package com.littlechoc.leetcode.utils;
 
 import com.littlechoc.leetcode.datastructure.ListNode;
+import com.littlechoc.leetcode.datastructure.TreeNode;
 
 import java.io.Console;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * 输入工具类
@@ -81,6 +81,53 @@ public class InputHelper {
         array[index++] = integer;
       }
       return array;
+    }
+    return null;
+  }
+
+  /**
+   * 根据输入字符串构建int数组
+   *
+   * @param s 字符串
+   * @return 数组
+   */
+  public static TreeNode createTree(String s) {
+    Queue<TreeNode> queue = new ArrayDeque<TreeNode>();
+    TreeNode root = null;
+    if (s.startsWith("[") && s.endsWith("]")) {
+      s = s.replace("[", "").replace("]", "");
+      String[] numbers = s.split(",");
+      boolean left = true;
+      for (String number : numbers) {
+        if (number.equals("null")) {
+          if (queue.isEmpty()) {
+            return null;
+          }
+          if (!left) {
+            queue.poll();
+          }
+          left = !left;
+        } else {
+          try {
+            int num = Integer.valueOf(number);
+            TreeNode node = new TreeNode(num);
+            if (queue.isEmpty()) {
+              root = node;
+            } else {
+              if (left) {
+                queue.peek().left = node;
+              } else {
+                queue.poll().right = node;
+              }
+              left = !left;
+            }
+            queue.offer(node);
+          } catch (NumberFormatException e) {
+            // do nothing
+          }
+        }
+      }
+      return root;
     }
     return null;
   }
