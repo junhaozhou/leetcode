@@ -1,6 +1,5 @@
 package com.littlechoc.leetcode.algorithms.binary_tree_postorder_traversal;
 
-import com.littlechoc.leetcode.datastructure.ListNode;
 import com.littlechoc.leetcode.datastructure.TreeNode;
 
 import java.util.ArrayList;
