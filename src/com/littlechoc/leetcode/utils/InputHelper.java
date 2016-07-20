@@ -56,4 +56,32 @@ public class InputHelper {
     }
     return null;
   }
+
+  /**
+   * 根据输入字符串构建int数组
+   *
+   * @param s 字符串
+   * @return 数组
+   */
+  public static int[] createIntArray(String s) {
+    List<Integer> list = new ArrayList<Integer>();
+    if (s.startsWith("[") && s.endsWith("]")) {
+      s = s.replace("[", "").replace("]", "");
+      String[] numbers = s.split(",");
+      for (String number : numbers) {
+        try {
+          list.add(Integer.valueOf(number));
+        } catch (NumberFormatException e) {
+          // do nothing
+        }
+      }
+      int[] array = new int[list.size()];
+      int index = 0;
+      for (Integer integer : list) {
+        array[index++] = integer;
+      }
+      return array;
+    }
+    return null;
+  }
 }
